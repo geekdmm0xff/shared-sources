@@ -1,0 +1,45 @@
+ {
+        "bookSourceComment": "修复目录列表12.21",
+        "bookSourceGroup": "💰 正版",
+        "bookSourceName": "💰 飞卢小说",
+        "bookSourceType": 0,
+        "bookSourceUrl": "https://wap.faloo.com",
+        "bookUrlPattern": "",
+        "customOrder": 192,
+        "enabled": true,
+        "enabledExplore": true,
+        "exploreUrl": "最新::https://wap.faloo.com/y_0_0_0_0_0_0_{{page}}.html\n周点击::https://wap.faloo.com/y_0_0_0_0_0_1_{{page}}.html\n月点击::https://wap.faloo.com/y_0_0_0_0_0_2_{{page}}.html\n总点击::https://wap.faloo.com/y_0_0_0_0_0_3_{{page}}.html\n周打赏::https://wap.faloo.com/y_0_0_0_0_0_13_{{page}}.html\n月打赏::https://wap.faloo.com/y_0_0_0_0_0_17_{{page}}.html\n总打赏::https://wap.faloo.com/y_0_0_0_0_0_18_{{page}}.html\n催更榜::https://wap.faloo.com/y_0_0_0_0_0_19_{{page}}.html\n周鲜花::https://wap.faloo.com/y_0_0_0_0_0_4_{{page}}.html\n月鲜花::https://wap.faloo.com/y_0_0_0_0_0_5_{{page}}.html\n总鲜花::https://wap.faloo.com/y_0_0_0_0_0_6_{{page}}.html\n周收藏::https://wap.faloo.com/y_0_0_0_0_0_7_{{page}}.html\n月收藏::https://wap.faloo.com/y_0_0_0_0_0_8_{{page}}.html\n总收藏::https://wap.faloo.com/y_0_0_0_0_0_9_{{page}}.html\n月字数::https://wap.faloo.com/y_0_0_0_0_0_12_{{page}}.html\n总字数::https://wap.faloo.com/y_0_0_0_0_0_10_{{page}}.html\n新书PK榜::https://wap.faloo.com/y_0_0_0_0_0_66_{{page}}.html\n月票::https://wap.faloo.com/y_0_0_0_0_0_15_{{page}}.html",
+        "lastUpdateTime": 1640080185530,
+        "respondTime": 180000,
+        "ruleBookInfo": {
+            "name": ".info h1@text",
+            "author": "#layoutAll > div > div.infoLayout > div.clearfix.position_relative > ul > li.color999 > a:nth-child(2)",
+            "kind": "#layoutAll > div > div.infoLayout > div.clearfix.position_relative > ul > li.color999 > a:nth-child(4)",
+            "coverUrl": ".cover_box img@src",
+            "lastChapter": ".newNode",
+            "tocUrl": ".btnLayout a:eq(1)@href",
+            "intro": "#novel_intro"
+        },
+        "ruleContent": {
+            "content": ".nodeContent",
+            "replaceRegex": [
+                "本书来自.*|本书由飞卢.*|用飞卢.*"
+            ]
+        },
+        "ruleSearch": {
+            "bookList": ".novelList li",
+            "name": "div > div > div.bl_r1_tit > a",
+            "author": ".nl_r1_author a:eq(0)",
+            "coverUrl": "div > a > img@src",
+            "intro": "div.bl_r1_into",
+            "kind": ".nl_r1_author a:eq(1)",
+            "bookUrl": "div > div > div.bl_r1_tit > a@href"
+        },
+        "ruleToc": {
+            "chapterList": ".v_nodeList li",
+            "chapterName": "a@text",
+            "chapterUrl": "a@href"
+        },
+        "searchUrl": "https://wap.faloo.com/search_1_1.html?k={{key}}##{\n  \"charset\": \"gbk\",\n  \"method\": \"GET\"\n}",
+        "weight": 0
+    }
